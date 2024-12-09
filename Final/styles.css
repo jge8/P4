@@ -1,0 +1,30 @@
+<!-- DEVELOPER: James Estafanous, IS117-102, Spring 2024 -->
+
+/* styles.css */
+.header-image {
+    position: relative;
+    text-align: center;
+    color: white;
+    background: url('photos/sunset.jpg') no-repeat center center; /* Update this path for production */
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 4em; /* Adjust the size as needed */
+    font-weight: bold;
+}
+
+p {
+    margin: 0;
+    font-size: 2em; /* Adjust the size as needed */
+}
+
+/* Rest of your CSS */

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Make the body and html take up the full height */
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Ensure the main content grows to fill the space */
+        .content {
+            flex: 1;
+        }
+
+        /* Sticky footer styles */
+        footer {
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">My Website</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        About
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="about.html">About Overview</a></li>
+                        <li><a class="dropdown-item" href="experiences.html">Experiences</a></li>
+                        <li><a class="dropdown-item" href="resume.html">Resume</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="content">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Contact Information</h3>
+                <p><strong>Name:</strong> James Estafanous</p>
+                <p><strong>Email:</strong> jge8@njit.edu</p>
+                <p><strong>Phone:</strong> (201) 850-3872</p>
+            </div>
+            <div class="col-md-8">
+                <h2>Resume</h2>
+                <h4>Work History</h4>
+                <p>July 2023 - Present</p>
+                <ul>
+                    <li>Did Instacart deliveries throughout the summer of 2023. I still continue to do deliveries until now.</li>
+                    <li>I started doing Doordash deliveries in the winter of 2023.</li>
+                </ul>
+                <h4>Community Service</h4>
+                <p>Feeding the Needy: June 2016 - Present</p>
+                <p>Local Ball Boy: August 2020 - November 2021 </p>
+                <ul>
+                    <li>Assisted my church in feeding the needy in towns across New Jersey.</li>
+                    <li>Became the team ball boy for my local high school soccer team throughout high school.</li>
+                </ul>
+                <h3>Education</h3>
+                <p><strong>Bachelor of Science in Computer Science</strong></p>
+                <p>New Jersey Institute of Technology, Newark, NJ</p>
+                <p>Graduate: 2027</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-light text-center text-lg-start">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2024-09-12 James Estafanous:
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
